@@ -1,0 +1,7 @@
+version: '3'
+services:
+  monapp:
+    image: zainebkhlifi1/monapp:latest
+    ports:
+      - "8090:8090"
+    restart: always
