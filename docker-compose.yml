@@ -3,5 +3,5 @@ services:
   monapp:
     image: zainebkhlifi1/monapp:latest
     ports:
-      - "8090:8090"
+      - "8086:8086"
     restart: always
